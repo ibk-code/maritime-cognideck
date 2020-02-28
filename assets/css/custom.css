@@ -1,0 +1,109 @@
+/* #41810f */
+
+
+.green-bg{
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+.header__menu ul li.active > a{
+  border-bottom: 3px solid #41810f;
+  
+}
+
+.header__menu ul .link-color > a:hover{
+  border-bottom: 3px solid #41810f;
+}
+
+.header__menu ul li a{
+  color: rgb(136, 136, 136);
+  font-size: 14.5px;
+  padding: 20px 13px;
+}
+
+.search-icon a{
+  color: rgb(136, 136, 136);
+}
+
+.carousel-item-overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.header-social a{
+   border-radius: 50px;
+}
+
+.header-space-top{
+  margin-top: 10px;
+}
+
+.widget-space{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.widget-title-space{
+  padding-bottom: 9px;
+}
+
+.mt-4-space{
+  margin-top: 36px;
+}
+
+.prev-icon, .next-icon{
+  display: none;
+}
+
+.footer-items{
+  justify-content: center;
+  display: grid;
+
+}
+
+.reduce-space-top{
+  margin-top: -15px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 20;
+  margin: 0;
+  padding: 10px;
+}
+
+.header-scroll-bg{
+  background-color: #fff;
+}
+
+.shrink {
+  padding: 20px 10px;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  transition: .8s all;
+  padding: 12px;
+  opacity: .95;
+}
+
+.footer-social a.linkedin {
+  background: #1677b5;
+}
+
+.btn-green{
+  background-color: #41810f;
+  border-radius: 10px;
+}
+
+.btn-green:hover{
+  background-color: #34660e;
+}
